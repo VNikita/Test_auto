@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1006]D:\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.dll</TopNode>
+  <SelectedNode>[0-1003]ProofOfConcept.Tests.SendMailFeature.Login</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1006]D:\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.dll" Expanded="true" />
+    <Node UniqueName="[0-1007]ProofOfConcept" Expanded="true" />
+    <Node UniqueName="[0-1008]ProofOfConcept.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]ProofOfConcept.Tests.LoginTestFeature" Expanded="true" />
+    <Node UniqueName="[0-1002]ProofOfConcept.Tests.SendMailFeature" Expanded="true" />
+    <Node UniqueName="[0-1003]ProofOfConcept.Tests.SendMailFeature.Login" Checked="true" />
+  </Nodes>
+</VisualState>

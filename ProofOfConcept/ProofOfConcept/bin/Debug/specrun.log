@@ -1,0 +1,40 @@
+﻿Appdomain Disposed
+Test Suite Dump
+#0: ProofOfConcept/Default - 
+#1: Default - 
+#3: ProofOfConcept - 
+#4: ProofOfConcept.Tests.LoginTestFeature - 
+#5: Login - TestAssembly:ProofOfConcept/TestClass:ProofOfConcept.Tests.LoginTestFeature/TestMethod:Login
+End: Test Suite Dump
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Thread #0: creating new test thread executor for ProofOfConcept, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: D:\Касперский\ProofOfConcept\packages\SpecRun.Runner.1.2.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #5/0 is started on thread #0
+T:Дано I open "http://www.mail.ru"
+T:-> done: LoginTestSteps.GivenIOpen("http://www.mail.ru") (1.0s)
+T:Дано I don't see "User eMail Text"
+T:-> done: LoginTestSteps.GivenIDonTSee("User eMail Text") (0.1s)
+T:Если I type "shaforost.olga" into "Login Part Field"
+T:-> done: LoginTestSteps.WhenITypeInto("shaforost.olga", "Login Part Field") (0.3s)
+T:И I select "@mail.ru" into "Domain"
+T:-> done: LoginTestSteps.WhenISelectInto("@mail.ru", "Domain") (0.0s)
+T:И I type "test_123" into "Password Field"
+T:-> done: LoginTestSteps.WhenITypeInto("test_123", "Password Field") (0.3s)
+T:И I click "Login Button"
+T:-> done: LoginTestSteps.WhenIClick("Login Button") (10.1s)
+T:То I see "User eMail Text"
+T:-> done: LoginTestSteps.ThenISee("User eMail Text") (0.1s)
+T:И I exit
+T:-> done: MailSteps.ThenIExit() (1.5s)
+T:И I don't see "User eMail Text"
+T:-> done: LoginTestSteps.GivenIDonTSee("User eMail Text") (0.2s)
+Test #5 is finished on thread #0 as Succeeded within 19.0529051 seconds
+Appdomain Disposed
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

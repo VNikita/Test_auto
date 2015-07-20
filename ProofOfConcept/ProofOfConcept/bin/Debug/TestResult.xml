@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.dll" total="1" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-07-20" time="10:37:52">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="D:\ProofOfConcept" machine-name="EPRURYAW0103" user="Nikita_Varchenko" user-domain="MOSCOW" />
+  <culture-info current-culture="ru-RU" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.dll" executed="True" result="Failure" success="False" time="17.385" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="ProofOfConcept" executed="True" result="Failure" success="False" time="17.370" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="17.369" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="SendMailFeature" description="SendMail" executed="True" result="Failure" success="False" time="17.367" asserts="0">
+                <categories>
+                  <category name="Test" />
+                </categories>
+                <results>
+                  <test-case name="ProofOfConcept.Tests.SendMailFeature.Login" description="login" executed="True" result="Failure" success="False" time="16.928" asserts="2">
+                    <failure>
+                      <message><![CDATA[  Element with locator User eMail Textwas NOT found, but should be present!
+  Expected: True
+  But was:  False
+]]></message>
+                      <stack-trace><![CDATA[at ProofOfConcept.Tests.SendMailSteps.ТоПользовательВидитСообщение(String WebElementName) in d:\ProofOfConcept\ProofOfConcept\Tests\SendMailSteps.cs:line 71
+at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+at ProofOfConcept.Tests.SendMailFeature.ScenarioCleanup() in d:\ProofOfConcept\ProofOfConcept\Tests\SentMail.feature.cs:line 0
+at ProofOfConcept.Tests.SendMailFeature.Login() in d:\ProofOfConcept\ProofOfConcept\Tests\SentMail.feature:line 14
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
