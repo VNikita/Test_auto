@@ -35,7 +35,7 @@ namespace ProofOfConcept.Tests
         {
             if ("Password Field".Equals(WebElementName, StringComparison.InvariantCultureIgnoreCase))
             {
-                loginPage.password.Clear();
+                loginPage.loginPart.Clear();
                 loginPage.password.SendKeys(Text);
             }
             else if ("Login Part Field".Equals(WebElementName, StringComparison.InvariantCultureIgnoreCase))

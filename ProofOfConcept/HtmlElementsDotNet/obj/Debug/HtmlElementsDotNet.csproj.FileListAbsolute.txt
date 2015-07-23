@@ -14,10 +14,3 @@ C:\Users\Никита\Desktop\ProofOfConcept\HtmlElementsDotNet\bin\Debug\Improm
 C:\Users\Никита\Desktop\ProofOfConcept\HtmlElementsDotNet\bin\Debug\ImpromptuInterface.xml
 C:\Users\Никита\Desktop\ProofOfConcept\HtmlElementsDotNet\obj\Debug\HtmlElementsDotNet.dll
 C:\Users\Никита\Desktop\ProofOfConcept\HtmlElementsDotNet\obj\Debug\HtmlElementsDotNet.pdb
-D:\ProofOfConcept\HtmlElementsDotNet\bin\Debug\HtmlElementsDotNet.dll
-D:\ProofOfConcept\HtmlElementsDotNet\bin\Debug\HtmlElementsDotNet.pdb
-D:\ProofOfConcept\HtmlElementsDotNet\bin\Debug\ImpromptuInterface.dll
-D:\ProofOfConcept\HtmlElementsDotNet\bin\Debug\ImpromptuInterface.xml
-D:\ProofOfConcept\HtmlElementsDotNet\obj\Debug\HtmlElementsDotNet.csprojResolveAssemblyReference.cache
-D:\ProofOfConcept\HtmlElementsDotNet\obj\Debug\HtmlElementsDotNet.dll
-D:\ProofOfConcept\HtmlElementsDotNet\obj\Debug\HtmlElementsDotNet.pdb
